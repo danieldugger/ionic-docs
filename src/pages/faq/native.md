@@ -57,7 +57,7 @@ If this does not fix the error then run the following commands:
 rm -rf node_modules
 rm -rf platform
 npm i
-ionic cordova platform add ios
+ionic cordova platforms add ios
 ionic cordova prepare ios
 ionic cordova build ios --prod
 ```
